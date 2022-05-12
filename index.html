@@ -1,1 +1,186 @@
-"Hello world" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tokoshie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div {
+            font-family: "Alata";
+        }
+        
+        .container {
+            max-width: 720px;
+        }
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .icon {
+            width: 30px;
+        }
+        
+        .portret {
+            width: 300px;
+            border-radius: 100%;
+        }
+        
+        .my-name {
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .bio {
+            font-size: 16px;
+            text-align: left;
+        }
+        
+        .paper-icon {
+            width: 280px;
+            height: 280px;
+            padding: 2px 2px;
+            border: 0.1px solid rgba(255, 255, 255, 0.5);
+        }
+        
+        .paper-title {
+            font-size: 16px;
+        }
+        
+        .paper-authors {
+            padding: 0px 0px;
+            color: rgba(0, 0, 0, 1.0);
+            font-size: 13px;
+        }
+        
+        .paper-journal {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 13px;
+        }
+        
+        .row {
+            padding: 5px 5px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand page-scroll" href="#page-top">
+			🐳 <span class="light">Tokoshie</span> |
+		</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="#Practices" class="nav-item nav-link">💡 Practices</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-3">
+        <!-- Image and Bio -->
+        <div class="row align-items-center">
+            <div class="col-sm cc">
+                <center>
+                    <img class="portret" src="image/0.jfif">
+                </center>
+            </div>
+            <div class="col-sm-8 cc bio">
+
+                <p>I'm a college student. My main interest is in computer graphics physics simulation, real time render and ray tracing.</p>
+            </div>
+        </div>
+
+        <!-- Links to GitHub LinkedIn Google Scholar -->
+        <div class="row">
+            <div class="col cc"></div>
+
+            <!-- <div class="col-auto cc">
+                <a href="Paper ink">
+                    <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlescholar.svg" title="Paper">
+                </a>
+            </div> -->
+            <div class="col-auto cc">
+                <a href="https://github.com/Tokoshie" target="_blank">
+                    <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/github.svg">
+                </a>
+            </div>
+            <div class="col-auto cc">
+                <a href="https://mobile.twitter.com/qurnn_" target="_blank">
+                    <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/twitter.svg">
+                </a>
+            </div>
+            <div class="col cc"></div>
+        </div>
+
+        <!-- Practices -->
+        <div class="row" id="Practices">
+            <div class="col-sm-12 cc">
+                <h3>Practices</h3>
+            </div>
+        </div>
+
+        <!-- Article list -->
+        <!-- 2020 -->
+        <div class="row align-items-center">
+            <div class="col-sm-auto">
+                <center>
+                    <img class="paper-icon" src="image/0.jfif">
+                </center>
+            </div>
+            <div class="col">
+                <div class="paper-desc">
+                    <div class="paper-title">Wave Curves: Simulating Lagrangian water waves on dynamically deforming surfaces
+                    </div>
+                    <div class="paper-authors"><b>T. Skřivan</b>, A. Söderström, J.Johansson, C.Sprenger, K. Museth, C. Wojtan
+                    </div>
+                    <div class="paper-journal">ACM Transactions on Graphics, 2020</div>
+                    <div class="paper-links">
+                        <a href="https://doi.org/10.1145/3386569.3392466" class="btn-sm badge-button" role="button">doi</a> |
+                        <a href="https://visualcomputing.ist.ac.at/publications/2020/WaveCurves/" class="btn-sm badge-button" role="button">project page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2019 -->
+        <div class="row align-items-center">
+            <div class="col-sm-auto cc">
+                <center>
+                    <img class="paper-icon" src="image/1.jfif">
+                </center>
+            </div>
+            <div class="col">
+                <div class="paper-desc">
+                    <div class="paper-title">Wave Curves: Simulating Lagrangian water waves on dynamically deforming surfaces
+                    </div>
+                    <div class="paper-authors"><b>T. Skřivan</b>, A. Söderström, J.Johansson, C.Sprenger, K. Museth, C. Wojtan
+                    </div>
+                    <div class="paper-journal">ACM Transactions on Graphics, 2020</div>
+                    <div class="paper-links">
+                        <a href="https://doi.org/10.1145/3386569.3392466" class="btn-sm badge-button" role="button">doi</a> |
+                        <a href="https://visualcomputing.ist.ac.at/publications/2020/WaveCurves/" class="btn-sm badge-button" role="button">project page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
